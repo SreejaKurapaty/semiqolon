@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | SemiQolon</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-yellow-400 pt-28">
+
+  <!-- Navigation Bar -->
+  <nav className="w-full flex items-center justify-between px-10 py-4 fixed top-0 bg-semiqolon z-50 shadow">
+    {/* Logo & Brand */}
+    <div className="flex items-center space-x-3">
+      <img src="semiqolon_logo_resized.png" alt="SemiQolon Logo" className="h-10 scale-[1] md:scale-[4] origin-left object-contain transition-transform duration-300 hover:scale-[4.2]"/>
+      {/*<span className="text-white text-2xl md:text-3xl font-bold"></span>*/}
+    </div>
+
+    {/* Nav Links */}
+    <ul className="hidden md:flex space-x-10 text-gold font-medium text-sm md:text-base">
+      <li className="hover:text-white cursor-pointer">Home</li>
+      <li className="hover:text-white cursor-pointer">Services</li>
+      <li className="hover:text-white cursor-pointer">Work</li>
+      <li className="hover:text-white cursor-pointer">About</li>
+      <li className="hover:text-white cursor-pointer">Contact</li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
+    <p class="text-lg text-gray-400">We partner with businesses to turn data into actionable insights using cutting-edge AI solutions.</p>
+  </section>
+
+  <!-- Services List Section -->
+  <section class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-12">
+    <!-- Service 1 -->
+    <div class="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+      <h2 class="text-2xl font-bold mb-4 text-yellow-400">Data Strategy Consulting</h2>
+      <p class="text-gray-300">We help you develop a data-first culture, identify key metrics, and architect scalable solutions for long-term growth.</p>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+      <h2 class="text-2xl font-bold mb-4 text-yellow-400">AI/ML Model Development</h2>
+      <p class="text-gray-300">Our team designs and trains custom AI models tailored to your business needs — from prediction to automation.</p>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+      <h2 class="text-2xl font-bold mb-4 text-yellow-400">Business Intelligence & Analytics</h2>
+      <p class="text-gray-300">Transform raw data into interactive dashboards and deep reports to empower decision-making at every level.</p>
+    </div>
+  </section>
+
+  <!-- Process Section (similar to "The Process") -->
+  <section class="bg-gray-800 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Process</h2>
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        
+        <!-- Step 1 -->
+        <div class="flex flex-col items-center">
+          <div class="text-5xl mb-4 text-yellow-400">1</div>
+          <h3 class="font-bold text-xl mb-2">Discovery</h3>
+          <p class="text-gray-400">We start with a deep understanding of your challenges, goals, and data landscape.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex flex-col items-center">
+          <div class="text-5xl mb-4 text-yellow-400">2</div>
+          <h3 class="font-bold text-xl mb-2">Design</h3>
+          <p class="text-gray-400">Crafting custom data solutions and AI strategies uniquely aligned to your needs.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex flex-col items-center">
+          <div class="text-5xl mb-4 text-yellow-400">3</div>
+          <h3 class="font-bold text-xl mb-2">Build</h3>
+          <p class="text-gray-400">Developing and deploying your tailored solution with precision and agility.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="flex flex-col items-center">
+          <div class="text-5xl mb-4 text-yellow-400">4</div>
+          <h3 class="font-bold text-xl mb-2">Optimize</h3>
+          <p class="text-gray-400">Ongoing tuning, support, and scaling to maximize value from your investment.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="text-center py-16">
+    <h2 class="text-3xl font-bold mb-6">Ready to unlock your business potential?</h2>
+    <a href="/contact.html" class="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition">
+      Let's Talk
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center py-6 text-gray-500 text-sm">
+    © 2025 SemiQolon. All rights reserved.
+  </footer>
+
+</body>
+</html>
