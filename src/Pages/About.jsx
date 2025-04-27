@@ -8,12 +8,16 @@ function About() {
       <nav className="w-full flex items-center justify-between px-10 py-4 fixed top-0 bg-semiqolon z-50 shadow">
         <div className="flex items-center space-x-3">
           <Link to="/">
-            <img src="semiqolon_logo_resized.png" alt="SemiQolon Logo" className="h-10 scale-[1] md:scale-[4] origin-left object-contain transition-transform duration-300 hover:scale-[4.2]" />
+          <img 
+                src="semiqolon_logo_resized.png" 
+                alt="SemiQolon Logo" 
+                className="h-5 h-10 scale-[1] md:scale-[4] origin-left object-contain transition-transform duration-300 hover:scale-[4.2] md:h-16 object-contain transition-transform duration-300 hover:scale-105" 
+            />
           </Link>
         </div>
 
         {/* Nav Links */}
-        <ul className="hidden md:flex space-x-10 text-gold font-medium text-sm md:text-base">
+        <ul className="hidden md:flex space-x-12 text-gold font-semibold text-base md:text-lg">
           <li><Link to="/" className="hover:text-white">Home</Link></li>
           <li><Link to="/services" className="hover:text-white">Services</Link></li>
           <li><Link to="/work" className="hover:text-white">Work</Link></li>
@@ -52,7 +56,6 @@ function About() {
 
       
       <section className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-16 my-10">
-       
         <div className="md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-3xl font-bold text-gold mb-6">Our Values</h2>
             <ul className="list-disc list-inside text-lg text-white space-y-4">
@@ -61,9 +64,6 @@ function About() {
             <li>Collaboration</li>
             </ul>
         </div>
-
-      
-
         {/* Image Block */}
         <div className="md:w-1/2 flex justify-center">
             <img src="/Images/values.png" alt="Values" className="w-64 h-auto" />
